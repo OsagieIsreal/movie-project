@@ -7,7 +7,7 @@ export default function Movie() {
 
   useEffect(() => {
    fetch(
-     'https://api.themoviedb.org/3/movie/now_playing?api_key=2412cce0385d26286191e88dbadfead6'
+     'https://api.themoviedb.org/3/movie/now_playing?api_key='
    )
      .then((response) => response.json())
      .then((data) => {
